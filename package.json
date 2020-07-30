@@ -1,0 +1,26 @@
+{
+  "name": "ecoleta_nlw-1",
+  "version": "1.0.0",
+  "description": "Project made together with RocketSeat on the first Next Level Week bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "cd mobile && yarn install && cd ../server && npm i && cd ../web && yarn install && yarn start",
+    "start-server": "cd server npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielrra/Ecoleta_NLW-1.git"
+  },
+  "keywords": [
+    "nlw1",
+    "rocketseat",
+    "react",
+    "react-native"
+  ],
+  "author": "Gabriel Amorim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielrra/Ecoleta_NLW-1/issues"
+  },
+  "homepage": "https://github.com/gabrielrra/Ecoleta_NLW-1#readme"
+}
